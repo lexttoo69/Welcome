@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;/* TOMA EL 100% DEL width  SE SUMA EL PADINDING CON EL WIDTH Y SE DE LA DIMENCION JUSTA Y SE CALCULA AUTOMATICAMENTE */
+    
+    padding: 0%;
+    margin: 0%;
+}
+
+main{
+    width: 100%;  /* NOS DICE QUE TAN LARGO VA A SER ESTE CONTENEDOR */
+    
+    height: 500PX;/* QUE TAN ALTO ESTE ELEMENTO */
+    
+    border: 20PX solid grey;
+    padding: 20px 35px;/* espacio relleno hacia dentro */
+    
+
+}

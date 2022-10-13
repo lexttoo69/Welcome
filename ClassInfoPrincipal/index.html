@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autocompletar y Autorrellenar</title>
+
+<!-- AYUDAR AL USUARIO A USAR FORMULARIOS MAS FACIL -->
+
+<!-- AUTOMPLETE es para completar los espacios requeridos con la info -->
+<!-- REQUIRED es para mostrarle al usuario que debe rellenar ese espacio -->
+
+</head>
+<body>
+    <form action="">
+        <label for="nombre">
+            <span>¿Cual es tu nombre?</span>
+            <input type="text" name="nombre" id="nombre" autocomplete="name" required/>
+        </label>
+    </form>
+    <form action="">
+        <label for="correo">
+            <span>¿Cual es tu correo?</span>
+            <input type="email" name="correo" id="correo" autocomplete="email" required/>
+        </label>
+    </form>
+    <form action="">
+        <label for="pais">
+            <span>¿En que pais vives?</span>
+            <input type="text" name="pais" id="pais" autocomplete="country" required/>
+        </label>
+    </form>
+    <form action="">
+        <label for="cp">
+            <span>¿Cual es tu codigo postal?</span>
+            <input type="text" name="cp" id="cp" autocomplete="postal-code" required/>
+        </label>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
